@@ -336,7 +336,7 @@ if (typeof Object.create !== "function") {
             base.$owlItems.each(function (index) {
                 var $this = $(this);
                 $this
-                    .css({"width": base.itemWidth})
+                    // .css({"width": base.itemWidth})
                     .data("owl-item", Number(index));
 
                 if (index % base.options.items === 0 || index === lastItem) {

@@ -144,7 +144,7 @@ nav {
   width: 100%;
 }
 nav .block {
-  margin-top: -85px;
+  margin-top: -102px;
   background: #fff;
   padding: 25px 40px;
   background: rgba(255, 255, 255, 0.89);
@@ -282,7 +282,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #blog {
   padding-top: 75px;
   padding-bottom: 100px;
-  background: url("../images/blog/blog-bg.jpg");
+  background: url("../images/blog/tortilla3.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -315,9 +315,9 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   color: #959595;
   transform: 1s;
 }
-#blog .block ul li:hover img {
+/* #blog .block ul li:hover img {
   transform: scale(1.2) rotate(10deg);
-}
+} */
 #blog .block ul li h3 {
   color: #323232;
   padding: 0px 40px 20px;
@@ -341,7 +341,6 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   float: left;
   width: 50%;
   height: 100%;
-  background: red;
   overflow: hidden;
 }
 #blog .block ul li .blog-img img {
@@ -395,6 +394,17 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   content: "";
   position: absolute;
   right: -15px;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: 0px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+#blog .block ul li .content-left .modified:after {
+  content: "";
+  position: absolute;
+  right: -70px;
   top: 50%;
   width: 30px;
   height: 30px;
@@ -492,7 +502,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #subscribe {
   padding: 100px 0px;
   text-align: center;
-  background: url("../images/subscribe-bg.jpg");
+  background: url("../images/blog/tortilla1.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -698,4 +708,12 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 }
 #footer-bottom p a {
   color: #FF4F02;
+}
+
+.owl-changewidth{
+  width: 530px;
+}
+
+.img-responsive{
+  float: left;
 }
