@@ -714,6 +714,6 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   width: 530px;
 }
 
-.img-responsive{
+.owl-changewidth .img-responsive{
   float: left;
 }
