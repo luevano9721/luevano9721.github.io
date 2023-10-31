@@ -496,19 +496,44 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   background: #ff530a;
   color: #fff;
 }
-/*--
-    subscribe Start
---*/
-#subscribe {
+
+#footer {
   padding: 100px 0px;
   text-align: center;
-  background: url("../images/blog/tortilla1.png");
+  background: url("../images/tortilla2.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
 }
-#subscribe:before {
+#footer .block{
+  background-color: white;
+}
+#footer:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/overlay-pattern.png") #000000;
+  opacity: 0.3;
+}
+/*--
+    subscribe Start
+--*/
+#instagram {
+  padding: 100px 0px;
+  text-align: center;
+  background: url("../images/tortilla3.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+#instagram:before {
   content: "";
   position: absolute;
   left: 0;
@@ -563,8 +588,12 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 /*--
     contact-us Start
 --*/
+#contactus-link{
+  scroll-margin-top:8rem;
+}
 #contact-us {
   padding: 70px 0px;
+  
 }
 #contact-us .block .title {
   padding: 20px 0;
@@ -610,6 +639,9 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   transition: .3s all;
 }
 
+#get-quote{
+  scroll-margin-top:5rem;
+}
 #get-quote .block button {
   background: #b26d73;
   float: right;
