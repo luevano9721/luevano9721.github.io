@@ -34,6 +34,11 @@
 	{
 	"@context": "http://schema.org/",
 	"@type": "Store",
+	"url": "https://tortillasrita.com/",
+	"logo": "https://tortillasrita.com/images/TortilleriaRita.svg"
+	  "servesCuisine": "Mexican",
+      "priceRange": "$",
+      "telephone": "+19152273962",
 	"image": [
 	  "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/303629804_112335904933732_3343220733325994330_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=O0CjXWbIq50AX9oATbq&_nc_ht=scontent-dfw5-1.xx&oh=00_AfC61fX0--G6Ekc_PI2so7_bSBZnoKN-yaFBvmsIQva9dw&oe=656D1E31",
 	  "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/326696844_722452749264332_1804830954326381417_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=4U_Uo3-OAh0AX_MCBtW&_nc_ht=scontent-dfw5-2.xx&oh=00_AfDcMg9B1ZLiQd2M4OxccNHf3RIe4Vij9waF7VhyLpsNRQ&oe=656D2B88",
@@ -55,42 +60,45 @@
       },
 	  "aggregateRating": {
 		"@type": "AggregateRating",
-		"ratingValue": "4",
-		"reviewCount": "8"
-	  },
-	  "review": [
-	  {
-		"@type": "Review",
-		"author": "Danica kuhlman",
-		"datePublished": "2023-11-24",
-		"reviewBody": "The most delicious and authentic tortillas! Easy to find location, and great prices. Will definitely be back!",
-		"name": "Will definitely be back!",
-		"reviewRating": {
-		  "@type": "Rating",
-		  "bestRating": "5",
-		  "ratingValue": "5",
-		  "worstRating": "1"
-		}
-	  },
-	  {
-		"@type": "Review",
-		"author": "Lucas",
-		"datePublished": "2023-11-22",
-		"reviewBody": "The tortillas taste amazing and they have a perfect size, they have an authentic Mexican flavor and the staff is friendly, 100% recommended.",
-		"name": "100% recommended",
-		"reviewRating": {
-		  "@type": "Rating",
-		  "bestRating": "5",
-		  "ratingValue": "4",
-		  "worstRating": "1"
-		}
-	  }
-	  ],
+		"ratingValue": "4.5",
+		"bestRating": "5",
+		"ratingCount": "8"
 
-      "url": "https://tortillasrita.com/",
-	  "servesCuisine": "Mexican",
-      "priceRange": "$",
-      "telephone": "+19152273962",
+	  },
+	  "@type": "Review",
+      "itemReviewed": {
+        "@type": "Tortillas",
+        "image": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/303629804_112335904933732_3343220733325994330_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=O0CjXWbIq50AX9oATbq&_nc_ht=scontent-dfw5-1.xx&oh=00_AfC61fX0--G6Ekc_PI2so7_bSBZnoKN-yaFBvmsIQva9dw&oe=656D1E31",
+        "name": "Flour Tortillas Rita ",
+        "servesCuisine": "Mexican",
+        "priceRange": "$",
+		"telephone": "+19152273962",
+        "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "4126 N Mesa St D",
+			"addressLocality": " El Paso",
+			"addressRegion": "TX",
+			"postalCode": "79902",
+			"addressCountry": "US"
+		  }
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "datePublished": "2023-11-24",
+		"reviewBody": "The tortillas taste amazing and they have a perfect size, they have an authentic Mexican flavor and the staff is friendly, 100% recommended.",
+		"name": "Will definitely be back!",
+      "author": {
+        "@type": "Person",
+        "name": "Antonio Lopez"
+      },
+	  "reviewRating": {
+		"@type": "Rating",
+		"bestRating": "5",
+		"ratingValue": "5",
+		"worstRating": "1"
+	  },
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
