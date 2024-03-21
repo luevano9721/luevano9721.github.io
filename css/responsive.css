@@ -98,6 +98,26 @@ px      68    160    252    344    436    528    620    712    */
     padding: 15px 80px;
     float: inherit;
   }
+
+  #newsblog {
+    padding: 100px 0px;
+    text-align: center;
+    position: relative;
+    background-color: white;
+  }
+  #newsblog .blog{
+    background-color: #F6F6F6;
+    margin: 10px;
+  }
+  #newsblog .blog h1{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  #newsblog img{
+    margin-bottom: 20px;
+    width: 70%;
+  }
   /*--
     footer Start
 --*/
